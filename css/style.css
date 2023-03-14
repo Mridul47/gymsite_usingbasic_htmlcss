@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("../img/mangym.jpg");
+  height: 100vh;
+}
+.left {
+  color: antiquewhite;
+  display: inline-block;
+  
+  position: absolute;
+  left: 34px;
+  top: 19px;
+}
+
+.left img {
+  width: 136px;
+  height: 110px;
+  object-fit: fill;
+}
+.center {
+  color: antiquewhite;
+  
+  /* margin: auto garera center garna ko lage suruma display block hunaparo tespachi width dinaparo tespachi margin auto halnaparo */
+  display: block;
+  width: 36%;
+  margin: 49px auto;
+}
+.right {
+  color: antiquewhite;
+  
+  position: absolute;
+  right: 34px;
+  top: 29px;
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+}
+
+.navbar li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px 20px;
+}
+
+.navbar li a:hover {
+  text-decoration: underline;
+  color: grey;
+}
+
+.right button {
+  background-color: rgb(159 149 149);
+  padding: 8px;
+
+  font-weight: 600;
+  margin: 9px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
+#textbox {
+  padding: 8px;
+  margin-right: 5px;
+  border-radius: 10px;
+}
+#textbox::placeholder {
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+}
+
+.container {
+   
+  border: 2px solid white;
+  margin: 106px auto;
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+  display: block;
+}
+.container h1 {
+  text-align: center;
+  color: white;
+}
+
+.form-group input {
+  font-family: "Baloo Bhai", cursive;
+  text-align: center;
+  display: block;
+  width: 508px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 25px;
+  border-radius: 8px;
+}
+.container button {
+  display: block;
+  width: 74%;
+  margin: 20px auto;
+}
